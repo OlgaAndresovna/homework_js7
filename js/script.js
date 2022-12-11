@@ -5,19 +5,17 @@ el.forEach((el) => {
     el.classList.add("super-dropdown");
 }); */
 
-/*
-2. У элемента с классом btn необходимо убрать класс "btn-secondary", если он
-присутствует у этого элемента, либо добавить, если такого класса у элемента
-не было.
- */
+/* 2. У элемента с классом btn необходимо убрать класс "btn-secondary", если он присутствует у этого элемента, либо добавить, если такого класса у элемента не было.
 
 document.querySelector('.btn').classList.toggle('btn-secondary');
+*/
 
 /*
 3. Необходимо удалить класс "dropdown-menu" у элемента, у которого
 присутствует класс "menu".
  */
 
+document.querySelector('.menu').classList.remove('dropdown-menu');
 
 /*
 4. Используя метод insertAdjacentHTML добавьте после div'a с классом
