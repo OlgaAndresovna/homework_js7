@@ -26,13 +26,11 @@ document.querySelector('div.dropdown').insertAdjacentHTML('afterend', '<a href="
 document.getElementById('dropdownMenuButton').id = 'superDropdown'; 
 */
 
-/*
-6. Добавьте атрибут data-dd со значением 3 элементу у которого существует
-атрибут "aria-labelledby" равный "dropdownMenuButton" используя dataset.
- */
+/* 6. Добавьте атрибут data-dd со значением 3 элементу у которого существует атрибут "aria-labelledby" равный "dropdownMenuButton" используя dataset.
+ 
 document.querySelector('[aria-labelledby="dropdownMenuButton"]').dataset.dd = '3';
+*/
 
-
-/*
-7. Удалите атрибут type у элемента с классом "dropdown-toggle".
+/* 7. Удалите атрибут type у элемента с классом "dropdown-toggle".
  */
+document.querySelector('.dropdown-toggle').removeAttribute('type');
